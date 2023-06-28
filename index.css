@@ -2,14 +2,43 @@
     display:flex;
     justify-content: space-between;
     margin:10px;
+    border:solid red;
  }
 
- .nav-items>ul{
+ .Nav-items > ul{
     list-style-type: none;
     display: flex;
  }
 
 
- .nav-items > ul >li{
+ .Nav-items > ul >li{
     padding: 10px;
+
  }
+
+
+ .logo{
+    width:50px;
+ }
+
+
+ .card{
+   width: 200px;
+   padding: 10px;
+   border:solid 1px black;
+   margin-left:2px;
+ }
+
+ .card > img{
+   width:100%;
+ }
+ 
+
+ .restorent_card{
+   display:flex;
+   flex-wrap:wrap;
+ }
+
+
+
+

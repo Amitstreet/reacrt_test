@@ -1,0 +1,1660 @@
+{
+    "statusCode": 0,
+    "data": {
+        "cacheExpiryTime": 320,
+        "pages": 1,
+        "pageIndex": 0,
+        "scrubber": 0,
+        "filters": [
+            {
+                "type": "FilterWidget",
+                "title": "Cuisines",
+                "key": "CUISINES",
+                "configType": "checkbox",
+                "visible": 1,
+                "options": [
+                    {
+                        "option": "Beverages",
+                        "selected": 0,
+                        "visible": 1
+                    },
+                    {
+                        "option": "Bihari",
+                        "selected": 0,
+                        "visible": 1
+                    },
+                    {
+                        "option": "Burgers",
+                        "selected": 0,
+                        "visible": 1
+                    },
+                    {
+                        "option": "Chinese",
+                        "selected": 0,
+                        "visible": 1
+                    },
+                    {
+                        "option": "Fast Food",
+                        "selected": 0,
+                        "visible": 1
+                    },
+                    {
+                        "option": "Indian",
+                        "selected": 0,
+                        "visible": 1
+                    },
+                    {
+                        "option": "North Indian",
+                        "selected": 0,
+                        "visible": 1
+                    },
+                    {
+                        "option": "Pizzas",
+                        "selected": 0,
+                        "visible": 1
+                    },
+                    {
+                        "option": "Snacks",
+                        "selected": 0,
+                        "visible": 1
+                    },
+                    {
+                        "option": "Sweets",
+                        "selected": 0,
+                        "visible": 1
+                    }
+                ],
+                "detail": "",
+                "heading": "Cuisines",
+                "applicable": 1,
+                "searchable": 1
+            },
+            {
+                "type": "FilterWidget",
+                "title": "Show Restaurants With",
+                "key": "SHOW_RESTAURANTS_WITH",
+                "configType": "checkbox",
+                "visible": 1,
+                "options": [
+                    {
+                        "option": "Pure Veg",
+                        "selected": 0,
+                        "visible": 1
+                    }
+                ],
+                "detail": "",
+                "heading": "Offers & More",
+                "applicable": 1,
+                "searchable": 0
+            }
+        ],
+        "sorts": [
+            {
+                "type": "SortWidget",
+                "key": "RELEVANCE",
+                "title": "Relevance",
+                "selected": 1,
+                "visible": 1,
+                "defaultSelection": true
+            },
+            {
+                "type": "SortWidget",
+                "key": "DELIVERY_TIME",
+                "title": "Delivery Time",
+                "selected": 0,
+                "visible": 1,
+                "defaultSelection": false
+            },
+            {
+                "type": "SortWidget",
+                "key": "RATING",
+                "title": "Rating",
+                "selected": 0,
+                "visible": 1,
+                "defaultSelection": false
+            },
+            {
+                "type": "SortWidget",
+                "key": "COST_FOR_TWO",
+                "title": "Cost: Low to High",
+                "selected": 0,
+                "visible": 1,
+                "defaultSelection": false
+            },
+            {
+                "type": "SortWidget",
+                "key": "COST_FOR_TWO_H2L",
+                "title": "Cost: High to Low",
+                "selected": 0,
+                "visible": 1,
+                "defaultSelection": false
+            }
+        ],
+        "configs": {
+            "ribbons": {
+                "PREORDER": {
+                    "type": "PREORDER",
+                    "text": "Preorder",
+                    "textColor": "#ffffff",
+                    "imageId": "sfefefefeegeg",
+                    "topBackgroundColor": "#d53d4c",
+                    "bottomBackgroundColor": "#af2330",
+                    "priority": 3
+                },
+                "EXCLUSIVE": {
+                    "type": "EXCLUSIVE",
+                    "text": "Exclusive",
+                    "textColor": "#ffffff",
+                    "imageId": "sfefefefeegeg",
+                    "topBackgroundColor": "#fa4a5b",
+                    "bottomBackgroundColor": "#d12a3b",
+                    "priority": 2
+                },
+                "NEW": {
+                    "type": "NEW",
+                    "text": "Newly Added",
+                    "textColor": "#ffffff",
+                    "imageId": "sfefefefeegeg",
+                    "topBackgroundColor": "#d53d4c",
+                    "bottomBackgroundColor": "#af2330",
+                    "priority": 4
+                },
+                "REPEAT": {
+                    "type": "REPEAT",
+                    "text": "Repeat",
+                    "textColor": "#ffffff",
+                    "imageId": "sfefefefeegeg",
+                    "topBackgroundColor": "#D53D4C",
+                    "bottomBackgroundColor": "#B02331",
+                    "priority": 6
+                },
+                "CLOUD": {
+                    "type": "CLOUD",
+                    "text": "Daily Menus",
+                    "textColor": "#ffffff",
+                    "imageId": "sfefefefeegeg",
+                    "topBackgroundColor": "#fa4a5b",
+                    "bottomBackgroundColor": "#d12a3b",
+                    "priority": 5
+                },
+                "PREMIUM": {
+                    "type": "PREMIUM",
+                    "text": "Premium",
+                    "textColor": "#ffffff",
+                    "imageId": "sfefefefeegeg",
+                    "topBackgroundColor": "#8a584b",
+                    "bottomBackgroundColor": "#583229",
+                    "priority": 7
+                },
+                "PROMOTED": {
+                    "type": "PROMOTED",
+                    "text": "Promoted",
+                    "textColor": "#ffffff",
+                    "imageId": "sfefefefeegeg",
+                    "topBackgroundColor": "#3a3c41",
+                    "bottomBackgroundColor": "#1e2023",
+                    "priority": 1
+                }
+            }
+        },
+        "cards": [
+            {
+                "cardType": "carousel",
+                "layoutAlignmentType": "VERTICAL",
+                "data": {
+                    "type": "carousel",
+                    "subtype": "topCarousel",
+                    "data": {
+                        "cards": [
+                            {
+                                "type": "carouselElement",
+                                "subtype": "image",
+                                "data": {
+                                    "bannerId": 607193,
+                                    "creativeId": "rng/md/carousel/production/s5ug2key6e2sptaxku5v",
+                                    "type": "restaurantCollectionV2",
+                                    "link": "56410",
+                                    "cityId": 0,
+                                    "restaurantUuid": "",
+                                    "restaurantParentId": "0",
+                                    "thirdPartyVendor": "",
+                                    "thirdPartyAddress": false
+                                }
+                            },
+                            {
+                                "type": "carouselElement",
+                                "subtype": "image",
+                                "data": {
+                                    "bannerId": 607188,
+                                    "creativeId": "rng/md/carousel/production/oxe97jexxbnxqtbhg2zo",
+                                    "type": "restaurantCollectionV2",
+                                    "link": "11740",
+                                    "cityId": 0,
+                                    "restaurantUuid": "",
+                                    "restaurantParentId": "0",
+                                    "thirdPartyVendor": "",
+                                    "thirdPartyAddress": false
+                                }
+                            }
+                        ]
+                    }
+                },
+                "parentWidget": false
+            },
+            {
+                "cardType": "carousel",
+                "layoutAlignmentType": "VERTICAL",
+                "data": {
+                    "type": "carousel",
+                    "subtype": "openFilter",
+                    "data": {
+                        "cards": [
+                            {
+                                "type": "carouselElement",
+                                "subtype": "image",
+                                "data": {
+                                    "bannerId": 181684,
+                                    "creativeId": "bkhjfipzydkoqncrxpyi",
+                                    "type": "restaurantCollectionV2",
+                                    "link": "11718",
+                                    "cityId": 0,
+                                    "restaurantUuid": "",
+                                    "restaurantParentId": "0",
+                                    "title": "Offers Near You",
+                                    "subtitle": "0 OPTIONS",
+                                    "restaurants": [],
+                                    "totalCount": 0,
+                                    "dwebOpenFilterTitle": "Offers Near You",
+                                    "dwebOpenFilterBgColor": "#FF0000",
+                                    "dwebOpenFilterSelectIcon": "eyperwsfhaoa5vktjtu4",
+                                    "dwebOpenFilterDeselectIcon": "urw8usdf4mk9aywd59gq"
+                                }
+                            },
+                            {
+                                "type": "carouselElement",
+                                "subtype": "image",
+                                "data": {
+                                    "bannerId": 181680,
+                                    "creativeId": "a3jqjjod5taken7dh1bs",
+                                    "type": "restaurantCollectionV2",
+                                    "link": "11721",
+                                    "cityId": 0,
+                                    "restaurantUuid": "",
+                                    "restaurantParentId": "0",
+                                    "title": "Veg Only",
+                                    "subtitle": "0 OPTIONS",
+                                    "restaurants": [],
+                                    "totalCount": 0,
+                                    "dwebOpenFilterTitle": "Vegetarian Options",
+                                    "dwebOpenFilterBgColor": "#FF0000",
+                                    "dwebOpenFilterSelectIcon": "qtjc8dzfexg72lug37a0",
+                                    "dwebOpenFilterDeselectIcon": "bm8bziikwyvwqsml1clm"
+                                }
+                            }
+                        ]
+                    }
+                },
+                "parentWidget": false
+            },
+            {
+                "cardType": "seeAllRestaurants",
+                "layoutAlignmentType": "VERTICAL",
+                "data": {
+                    "type": "seeAllRestaurants",
+                    "data": {
+                        "title": "SEE ALL",
+                        "totalOpenRestaurants": 8,
+                        "cards": [
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "500201",
+                                    "name": "Laziz Pizza",
+                                    "uuid": "0be4a570-1aad-4e23-b6b7-5ce8554db657",
+                                    "city": "10650",
+                                    "area": "Khalilabad",
+                                    "totalRatingsString": "50+ ratings",
+                                    "cloudinaryImageId": "btn0fiilneznefezunlf",
+                                    "cuisines": [
+                                        "Pizzas",
+                                        "Beverages"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 19900,
+                                    "costForTwoString": "₹199 FOR TWO",
+                                    "deliveryTime": 21,
+                                    "minDeliveryTime": 21,
+                                    "maxDeliveryTime": 21,
+                                    "slaString": "21 MINS",
+                                    "lastMileTravel": 1.899999976158142,
+                                    "slugs": {
+                                        "restaurant": "prem-shankar-pandey-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "1st floor allahabad bank , mehdawal bypass road ,khalilabad - 272175",
+                                    "locality": "Teacher's Colony",
+                                    "parentId": 2299,
+                                    "unserviceable": false,
+                                    "veg": false,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "ribbon": [
+                                        {
+                                            "type": "PROMOTED"
+                                        }
+                                    ],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": true,
+                                        "nextOpenMessage": "",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "cid=7184115~p=1~eid=00000188-fc15-646e-1558-db9700dc0159~srvts=1687856440430",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "1.8 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "60% OFF",
+                                        "subHeader": "UPTO ₹120",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "500201",
+                                        "deliveryTime": 21,
+                                        "minDeliveryTime": 21,
+                                        "maxDeliveryTime": 21,
+                                        "lastMileTravel": 1.899999976158142,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": true,
+                                    "avgRating": "3.6",
+                                    "totalRatings": 50,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "632103",
+                                    "name": "Radhe Govind Misthan",
+                                    "uuid": "19111af4-399d-4049-af00-799656d2c31f",
+                                    "city": "10650",
+                                    "area": "Khalilabad",
+                                    "totalRatingsString": "Too Few Ratings",
+                                    "cloudinaryImageId": "svw4kqsiouz4vzslymva",
+                                    "cuisines": [
+                                        "Sweets"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 15000,
+                                    "costForTwoString": "₹150 FOR TWO",
+                                    "deliveryTime": 18,
+                                    "minDeliveryTime": 18,
+                                    "maxDeliveryTime": 18,
+                                    "slaString": "18 MINS",
+                                    "lastMileTravel": 0,
+                                    "slugs": {
+                                        "restaurant": "radhe-govind-misthan-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "near samay mata mandir khalilabad uttar pradesh-",
+                                    "locality": "Teacher's Colony",
+                                    "parentId": 378072,
+                                    "unserviceable": false,
+                                    "veg": false,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": true,
+                                        "nextOpenMessage": "",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "60% OFF",
+                                        "subHeader": "UPTO ₹100",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "632103",
+                                        "deliveryTime": 18,
+                                        "minDeliveryTime": 18,
+                                        "maxDeliveryTime": 18,
+                                        "lastMileTravel": 0,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "--",
+                                    "totalRatings": 0,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "498678",
+                                    "name": "Pizza Vizza ",
+                                    "uuid": "fddac991-d83a-4a71-a24e-7eb0dad952b1",
+                                    "city": "10650",
+                                    "area": "Khalilabad",
+                                    "totalRatingsString": "100+ ratings",
+                                    "cloudinaryImageId": "jbz3dzcw9ocqolzh3uo4",
+                                    "cuisines": [
+                                        "Pizzas",
+                                        "Chinese"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 19900,
+                                    "costForTwoString": "₹199 FOR TWO",
+                                    "deliveryTime": 18,
+                                    "minDeliveryTime": 18,
+                                    "maxDeliveryTime": 18,
+                                    "slaString": "18 MINS",
+                                    "lastMileTravel": 0.10000000149011612,
+                                    "slugs": {
+                                        "restaurant": "pizza-vizza-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "PURANI SABJI MANDI ROAD, NEAR BABA  MAZAR, SAMAY MATA MANDIR KE PICHE,  Khalilabad -- 272175",
+                                    "locality": "Teacher's Colony",
+                                    "parentId": 12153,
+                                    "unserviceable": false,
+                                    "veg": false,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": true,
+                                        "nextOpenMessage": "",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "0.1 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "",
+                                        "subHeader": "",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "498678",
+                                        "deliveryTime": 18,
+                                        "minDeliveryTime": 18,
+                                        "maxDeliveryTime": 18,
+                                        "lastMileTravel": 0.10000000149011612,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "3.8",
+                                    "totalRatings": 100,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "594355",
+                                    "name": "Commando's kitchen",
+                                    "uuid": "3cd9dcf8-ede0-4e5e-9c42-3411c213d8d5",
+                                    "city": "10650",
+                                    "area": "Khalilabad",
+                                    "totalRatingsString": "Too Few Ratings",
+                                    "cloudinaryImageId": "sryhvvrdowfp3w9mqkyk",
+                                    "cuisines": [
+                                        "Pizzas",
+                                        "Burgers",
+                                        "Fast Food",
+                                        "Beverages"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 15000,
+                                    "costForTwoString": "₹150 FOR TWO",
+                                    "deliveryTime": 18,
+                                    "minDeliveryTime": 18,
+                                    "maxDeliveryTime": 18,
+                                    "slaString": "18 MINS",
+                                    "lastMileTravel": 0,
+                                    "slugs": {
+                                        "restaurant": "commando's-kitchen-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "1stfloor allahabad bank samay mata mandir khalilabad uttar pradesh",
+                                    "locality": "Teacher's Colony",
+                                    "parentId": 355538,
+                                    "unserviceable": false,
+                                    "veg": false,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": true,
+                                        "nextOpenMessage": "",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "60% OFF",
+                                        "subHeader": "UPTO ₹120",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "594355",
+                                        "deliveryTime": 18,
+                                        "minDeliveryTime": 18,
+                                        "maxDeliveryTime": 18,
+                                        "lastMileTravel": 0,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "--",
+                                    "totalRatings": 0,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "718767",
+                                    "name": "Yadav Coffee Corner",
+                                    "uuid": "6a4ea62d-7907-4d9c-86e8-10165602cfcc",
+                                    "city": "10650",
+                                    "area": "Khalilabad",
+                                    "totalRatingsString": "Too Few Ratings",
+                                    "cloudinaryImageId": "5b17fc2fe703cfaa5478f2994fdf2e1d",
+                                    "cuisines": [
+                                        "Beverages",
+                                        "Sweets"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 10000,
+                                    "costForTwoString": "₹100 FOR TWO",
+                                    "deliveryTime": 27,
+                                    "minDeliveryTime": 27,
+                                    "maxDeliveryTime": 27,
+                                    "slaString": "27 MINS",
+                                    "lastMileTravel": 3.799999952316284,
+                                    "slugs": {
+                                        "restaurant": "yadav-coffee-corner-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "BANK CHAURAHA NEAR STATE BANK KHALILABAD UTTAR PRADESH 272175",
+                                    "locality": "Bank Chauraha",
+                                    "parentId": 428513,
+                                    "unserviceable": false,
+                                    "veg": false,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": true,
+                                        "nextOpenMessage": "",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "3.7 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "60% OFF",
+                                        "subHeader": "UPTO ₹100",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "718767",
+                                        "deliveryTime": 27,
+                                        "minDeliveryTime": 27,
+                                        "maxDeliveryTime": 27,
+                                        "lastMileTravel": 3.799999952316284,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "--",
+                                    "totalRatings": 0,
+                                    "new": true
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "603635",
+                                    "name": "Sonchiriya food cout",
+                                    "uuid": "31379f91-7f08-4f19-befd-1acb0e223395",
+                                    "city": "10650",
+                                    "area": "Khalilabad",
+                                    "totalRatingsString": "Too Few Ratings",
+                                    "cloudinaryImageId": "wmdjrxtadzsg58uandrt",
+                                    "cuisines": [
+                                        "Chinese",
+                                        "Indian",
+                                        "Burgers",
+                                        "Snacks"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 15000,
+                                    "costForTwoString": "₹150 FOR TWO",
+                                    "deliveryTime": 30,
+                                    "minDeliveryTime": 30,
+                                    "maxDeliveryTime": 30,
+                                    "slaString": "30 MINS",
+                                    "lastMileTravel": 4.300000190734863,
+                                    "slugs": {
+                                        "restaurant": "sonchiriya-food-cout-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "Teacher's Colony, Khalilabad, khalilabad (NPP), Khalilabad Tahsil, Sant Kabir nagar, Uttar Pradesh 272175",
+                                    "locality": "Teacher's Colony",
+                                    "parentId": 359891,
+                                    "unserviceable": false,
+                                    "veg": false,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": true,
+                                        "nextOpenMessage": "",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "4.3 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "30% OFF",
+                                        "subHeader": "UPTO ₹75",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "603635",
+                                        "deliveryTime": 30,
+                                        "minDeliveryTime": 30,
+                                        "maxDeliveryTime": 30,
+                                        "lastMileTravel": 4.300000190734863,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "--",
+                                    "totalRatings": 0,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "515448",
+                                    "name": "Indu litti chokha",
+                                    "uuid": "481de96c-8372-4be9-b6d6-889177883dd9",
+                                    "city": "10650",
+                                    "area": "Khalilabad Locality",
+                                    "totalRatingsString": "Too Few Ratings",
+                                    "cloudinaryImageId": "evtc3t9wmif45rj9v52z",
+                                    "cuisines": [
+                                        "North Indian",
+                                        "Bihari",
+                                        "Snacks"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 19900,
+                                    "costForTwoString": "₹199 FOR TWO",
+                                    "deliveryTime": 33,
+                                    "minDeliveryTime": 33,
+                                    "maxDeliveryTime": 33,
+                                    "slaString": "33 MINS",
+                                    "lastMileTravel": 5,
+                                    "slugs": {
+                                        "restaurant": "ravikant-pandey-s/o-shardanad-pandey-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "Indo Litti Chokha & Restorent  near Bajaj Agency saria baipass khalilabad - 272175",
+                                    "locality": "Teacher's Colony",
+                                    "parentId": 336810,
+                                    "unserviceable": false,
+                                    "veg": true,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": true,
+                                        "nextOpenMessage": "",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "5 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "60% OFF",
+                                        "subHeader": "UPTO ₹100",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "515448",
+                                        "deliveryTime": 33,
+                                        "minDeliveryTime": 33,
+                                        "maxDeliveryTime": 33,
+                                        "lastMileTravel": 5,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "--",
+                                    "totalRatings": 0,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "719594",
+                                    "name": "Yaadgar Restaurant",
+                                    "uuid": "c27942fc-8997-4d77-9ab7-6c19ac4269d7",
+                                    "city": "10650",
+                                    "area": "Khalilabad",
+                                    "totalRatingsString": "Too Few Ratings",
+                                    "cloudinaryImageId": "383b1558902b9ca2635bb39a30167294",
+                                    "cuisines": [
+                                        "Indian"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 30000,
+                                    "costForTwoString": "₹300 FOR TWO",
+                                    "deliveryTime": 33,
+                                    "minDeliveryTime": 33,
+                                    "maxDeliveryTime": 33,
+                                    "slaString": "33 MINS",
+                                    "lastMileTravel": 1.7000000476837158,
+                                    "slugs": {
+                                        "restaurant": "yaadgar-restaurant-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "MOTINAGAR MAIN ROAD KHALILABAD TEHSIL SANT KABIR NAGAR UTTAR PRADESH 272175",
+                                    "locality": "MotiNagar",
+                                    "parentId": 227235,
+                                    "unserviceable": false,
+                                    "veg": false,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": true,
+                                        "nextOpenMessage": "",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "1.7 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "60% OFF",
+                                        "subHeader": "UPTO ₹100",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "719594",
+                                        "deliveryTime": 33,
+                                        "minDeliveryTime": 33,
+                                        "maxDeliveryTime": 33,
+                                        "lastMileTravel": 1.7000000476837158,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "--",
+                                    "totalRatings": 0,
+                                    "new": true
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "588782",
+                                    "name": "Ajamghad Kalika Hotel",
+                                    "uuid": "b8befe1c-dcc0-46af-9ef1-5500ae1f78e0",
+                                    "city": "10650",
+                                    "area": "Khalilabad",
+                                    "totalRatingsString": "Too Few Ratings",
+                                    "cloudinaryImageId": "yk6xxd6o9dp5affpatl6",
+                                    "cuisines": [
+                                        "North Indian"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 20000,
+                                    "costForTwoString": "₹200 FOR TWO",
+                                    "deliveryTime": 30,
+                                    "minDeliveryTime": 30,
+                                    "maxDeliveryTime": 30,
+                                    "slaString": "30 MINS",
+                                    "lastMileTravel": 4,
+                                    "slugs": {
+                                        "restaurant": "ajamghad-kalika-hotel-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "Kabir Park PO/PS KHALIABAD UTTAR PRADESH",
+                                    "locality": "Teacher's Colony",
+                                    "parentId": 352260,
+                                    "unserviceable": false,
+                                    "veg": false,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": false,
+                                        "nextOpenMessage": "Opens next at 9:30 pm, today",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "4 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "60% OFF",
+                                        "subHeader": "UPTO ₹100",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "588782",
+                                        "deliveryTime": 30,
+                                        "minDeliveryTime": 30,
+                                        "maxDeliveryTime": 30,
+                                        "lastMileTravel": 4,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "--",
+                                    "totalRatings": 0,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "500998",
+                                    "name": "Second Wife Cafe and Food Plaza",
+                                    "uuid": "3d6ffe20-147d-45fe-b88f-eaddef2b2278",
+                                    "city": "10650",
+                                    "area": "Khalilabad Locality",
+                                    "totalRatingsString": "100+ ratings",
+                                    "cloudinaryImageId": "beuq2phdilsbychbujg0",
+                                    "cuisines": [
+                                        "Indian",
+                                        "North Indian",
+                                        "Chinese"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 19900,
+                                    "costForTwoString": "₹199 FOR TWO",
+                                    "deliveryTime": 30,
+                                    "minDeliveryTime": 30,
+                                    "maxDeliveryTime": 30,
+                                    "slaString": "30 MINS",
+                                    "lastMileTravel": 4.900000095367432,
+                                    "slugs": {
+                                        "restaurant": "m/s-second-wife-cafe-and-food-plaza-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "Saraiya Bypass , khalilabad -272175",
+                                    "locality": "",
+                                    "parentId": 329190,
+                                    "unserviceable": false,
+                                    "veg": false,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": false,
+                                        "nextOpenMessage": "Opens next at 6 pm, Friday",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "4.9 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "60% OFF",
+                                        "subHeader": "UPTO ₹120",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "500998",
+                                        "deliveryTime": 30,
+                                        "minDeliveryTime": 30,
+                                        "maxDeliveryTime": 30,
+                                        "lastMileTravel": 4.900000095367432,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "3.8",
+                                    "totalRatings": 100,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "500195",
+                                    "name": "Madhukunj sweets",
+                                    "uuid": "f405ef99-b1c8-4c2b-9932-b964dd26c4cd",
+                                    "city": "10650",
+                                    "area": "Khalilabad",
+                                    "totalRatingsString": "20+ ratings",
+                                    "cloudinaryImageId": "jz4dakaloomvrb6f8e4f",
+                                    "cuisines": [
+                                        "Sweets",
+                                        "Chinese",
+                                        "Snacks",
+                                        "South Indian",
+                                        "Fast Food",
+                                        "Chaat",
+                                        "Beverages"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 19900,
+                                    "costForTwoString": "₹199 FOR TWO",
+                                    "deliveryTime": 40,
+                                    "minDeliveryTime": 40,
+                                    "maxDeliveryTime": 40,
+                                    "slaString": "40 MINS",
+                                    "lastMileTravel": 3,
+                                    "slugs": {
+                                        "restaurant": "m/s-madhukunj-sweets-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "Mehdawal Chauraha khalilabad -272175",
+                                    "locality": "Teacher's Colony",
+                                    "parentId": 299943,
+                                    "unserviceable": false,
+                                    "veg": true,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": false,
+                                        "nextOpenMessage": "Opens next at 11 am, tomorrow",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "3 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "10% OFF",
+                                        "subHeader": "UPTO ₹40",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "500195",
+                                        "deliveryTime": 40,
+                                        "minDeliveryTime": 40,
+                                        "maxDeliveryTime": 40,
+                                        "lastMileTravel": 3,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "3.9",
+                                    "totalRatings": 20,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "663393",
+                                    "name": "SKP Junction Cafe And Restaurant",
+                                    "uuid": "ce60cdf4-5fb4-4bfc-a673-c27a9577df34",
+                                    "city": "10650",
+                                    "area": "Khalilabad Locality",
+                                    "totalRatingsString": "Too Few Ratings",
+                                    "cloudinaryImageId": "7423c03fa94719826e270ef5e291e880",
+                                    "cuisines": [
+                                        "North Indian",
+                                        "Chinese",
+                                        "South Indian",
+                                        "Burgers",
+                                        "Fast Food"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 30000,
+                                    "costForTwoString": "₹300 FOR TWO",
+                                    "deliveryTime": 33,
+                                    "minDeliveryTime": 33,
+                                    "maxDeliveryTime": 33,
+                                    "slaString": "33 MINS",
+                                    "lastMileTravel": 5,
+                                    "slugs": {
+                                        "restaurant": "skp-junction-cafe-and-restaurant-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "3, Sugar Meel Techer Calony, Banjaria Dehat, Uttar Pradesh 272175, India",
+                                    "locality": "Teacher's Colony",
+                                    "parentId": 397857,
+                                    "unserviceable": false,
+                                    "veg": false,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": false,
+                                        "nextOpenMessage": "Opens next at 11 am, Thursday",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "5 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "60% OFF",
+                                        "subHeader": "UPTO ₹100",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "663393",
+                                        "deliveryTime": 33,
+                                        "minDeliveryTime": 33,
+                                        "maxDeliveryTime": 33,
+                                        "lastMileTravel": 5,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "--",
+                                    "totalRatings": 0,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "664573",
+                                    "name": "Hotel Soni International",
+                                    "uuid": "43dfd31e-690e-44a0-b06c-c7c0837e782c",
+                                    "city": "10650",
+                                    "area": "Khalilabad Locality",
+                                    "totalRatingsString": "Too Few Ratings",
+                                    "cloudinaryImageId": "7423c03fa94719826e270ef5e291e880",
+                                    "cuisines": [
+                                        "North Indian",
+                                        "Chinese",
+                                        "Ice Cream"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 20000,
+                                    "costForTwoString": "₹200 FOR TWO",
+                                    "deliveryTime": 30,
+                                    "minDeliveryTime": 30,
+                                    "maxDeliveryTime": 30,
+                                    "slaString": "30 MINS",
+                                    "lastMileTravel": 4,
+                                    "slugs": {
+                                        "restaurant": "hotel-soni-international-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "DEEGHA BYPASS KHALILABAD PO/PS KHALILABAD TAHSIL SANT KABIR NAGAR UTTAR PRADESH 272175",
+                                    "locality": "Teacher's Colony",
+                                    "parentId": 398478,
+                                    "unserviceable": false,
+                                    "veg": false,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": false,
+                                        "nextOpenMessage": "Opens next at 11 am, tomorrow",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "4 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "",
+                                        "subHeader": "",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "664573",
+                                        "deliveryTime": 30,
+                                        "minDeliveryTime": 30,
+                                        "maxDeliveryTime": 30,
+                                        "lastMileTravel": 4,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "--",
+                                    "totalRatings": 0,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "602929",
+                                    "name": "Sadabahar Bakers",
+                                    "uuid": "7fba2007-8024-4ae4-9711-bb6baaed9cd1",
+                                    "city": "10650",
+                                    "area": "Khalilabad Locality",
+                                    "totalRatingsString": "Too Few Ratings",
+                                    "cloudinaryImageId": "j4wvakul8oy2t7vz2pjd",
+                                    "cuisines": [
+                                        "Chinese",
+                                        "South Indian",
+                                        "Pizzas",
+                                        "Snacks",
+                                        "Beverages"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 20000,
+                                    "costForTwoString": "₹200 FOR TWO",
+                                    "deliveryTime": 19,
+                                    "minDeliveryTime": 19,
+                                    "maxDeliveryTime": 19,
+                                    "slaString": "19 MINS",
+                                    "lastMileTravel": 0.699999988079071,
+                                    "slugs": {
+                                        "restaurant": "sadabahar-bakers-khalilabad-khalilabad-2",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "Bardahiya bazar khalilabad tahsil,sant nagar uttar pradesh 272175",
+                                    "locality": "Teacher's Colony",
+                                    "parentId": 359564,
+                                    "unserviceable": false,
+                                    "veg": false,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": false,
+                                        "nextOpenMessage": "",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "0.6 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "60% OFF",
+                                        "subHeader": "UPTO ₹100",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "602929",
+                                        "deliveryTime": 19,
+                                        "minDeliveryTime": 19,
+                                        "maxDeliveryTime": 19,
+                                        "lastMileTravel": 0.699999988079071,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "--",
+                                    "totalRatings": 0,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            },
+                            {
+                                "type": "restaurant",
+                                "data": {
+                                    "type": "F",
+                                    "id": "500199",
+                                    "name": "Tipti Shakahari Bhojnalaya",
+                                    "uuid": "611f4ccb-3943-48cf-a3e7-da6937b189b8",
+                                    "city": "10650",
+                                    "area": "Khalilabad Locality",
+                                    "totalRatingsString": "Too Few Ratings",
+                                    "cloudinaryImageId": "hlhzxtrwlw6t0cahslkt",
+                                    "cuisines": [
+                                        "North Indian",
+                                        "South Indian"
+                                    ],
+                                    "tags": [],
+                                    "costForTwo": 19900,
+                                    "costForTwoString": "₹199 FOR TWO",
+                                    "deliveryTime": 27,
+                                    "minDeliveryTime": 27,
+                                    "maxDeliveryTime": 27,
+                                    "slaString": "27 MINS",
+                                    "lastMileTravel": 3,
+                                    "slugs": {
+                                        "restaurant": "sumit-kumar-khalilabad-khalilabad",
+                                        "city": "khalilabad"
+                                    },
+                                    "cityState": "10650",
+                                    "address": "Tipti shakahari bhojnalay mukhlishpur chauraha khalilabad -272175",
+                                    "locality": "Teacher's Colony",
+                                    "parentId": 335087,
+                                    "unserviceable": false,
+                                    "veg": true,
+                                    "select": false,
+                                    "favorite": false,
+                                    "tradeCampaignHeaders": [],
+                                    "chain": [],
+                                    "feeDetails": {
+                                        "fees": [],
+                                        "totalFees": 0,
+                                        "message": "",
+                                        "title": "",
+                                        "amount": "",
+                                        "icon": ""
+                                    },
+                                    "availability": {
+                                        "opened": false,
+                                        "nextOpenMessage": "Opens next at 11 am, tomorrow",
+                                        "nextCloseMessage": ""
+                                    },
+                                    "longDistanceEnabled": 0,
+                                    "rainMode": "NONE",
+                                    "thirdPartyAddress": false,
+                                    "thirdPartyVendor": "",
+                                    "adTrackingID": "",
+                                    "badges": {
+                                        "imageBased": [],
+                                        "textBased": [],
+                                        "textExtendedBadges": []
+                                    },
+                                    "lastMileTravelString": "3 kms",
+                                    "hasSurge": false,
+                                    "aggregatedDiscountInfoV3": {
+                                        "header": "60% OFF",
+                                        "subHeader": "UPTO ₹100",
+                                        "discountTag": "",
+                                        "headerTypeV2": 0
+                                    },
+                                    "sla": {
+                                        "restaurantId": "500199",
+                                        "deliveryTime": 27,
+                                        "minDeliveryTime": 27,
+                                        "maxDeliveryTime": 27,
+                                        "lastMileTravel": 3,
+                                        "lastMileDistance": 0,
+                                        "serviceability": "SERVICEABLE",
+                                        "rainMode": "NONE",
+                                        "longDistance": "NOT_LONG_DISTANCE",
+                                        "preferentialService": false,
+                                        "iconType": "EMPTY"
+                                    },
+                                    "promoted": false,
+                                    "avgRating": "--",
+                                    "totalRatings": 0,
+                                    "new": false
+                                },
+                                "subtype": "basic"
+                            }
+                        ],
+                        "totalRestaurants": 22
+                    },
+                    "subtype": "personalized"
+                },
+                "parentWidget": false
+            }
+        ],
+        "nextPageFetch": 0
+    },
+    "tid": "b449c576-e700-4c79-913f-92f2a19d14d3",
+    "sid": "7v28cc9c-c112-406a-912e-cca402b450ee",
+    "deviceId": "93c72235-dbee-4a31-b9f4-7330f988f116",
+    "csrfToken": "sxMnImcdBkxa-V-ufOIxQVnAz8rBYlwSwGTrLrlY"
+}
